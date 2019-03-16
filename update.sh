@@ -11,7 +11,7 @@ then
     sed -i '/memair/s/^#*/#/g' /etc/pihole/adlists.list
 else
     echo "odd hash day, disallowing social media";
-    sudo sed -i '/memair/s/^#*//g' /etc/pihole/adlists.list
+    sed -i '/memair/s/^#*//g' /etc/pihole/adlists.list
 fi
 
 echo "refreshing pihole lists"
