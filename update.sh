@@ -7,7 +7,7 @@ HASH_END=$((16#${HASH: -1}))
 
 if [ $((HASH_END%2)) -eq 0 ];
 then
-    echo "even day, allowing social meida";
+    echo "even day, allowing social media";
     sed -i '/memair/s/^#*/#/g' /etc/pihole/adlists.list
 else
     echo "odd hash day, disallowing social media";
