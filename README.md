@@ -29,7 +29,7 @@ We're currently working on a framework to make experimenting easier. Follow us o
 
 ## How it works
 
-Each day at 00:00 UTC, the state has a 25% chance of changing state from blocked to unblocked or vice versa. Details on how this is calculated can be seen in [update.py](https://github.com/memair/dns/blob/master/update.py). The status of each day in 2019 is available [here](https://github.com/memair/dns/blob/master/DAILY_STATUS.md).
+Each day at 00:00 UTC, the state has a 25% chance of changing state from blocked to unblocked or vice versa. Details on how this is calculated can be seen in [update.py](https://github.com/memair/dns/blob/master/update.py). The status of each day in 2019 is available [here](https://github.com/memair/dns/blob/master/daily_status.txt).
 
 ## Setup
 
