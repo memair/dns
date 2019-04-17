@@ -90,4 +90,4 @@ Unfortunately iOS doesn't support system wide DNS settings. You can set the DNS 
 
 ## Contributors
 
-A big thank you to @jasonmwhite & @camdavidsonpilon for letting me (@gregology) pick their brains when starting this project.
+A big thank you to [@jasonmwhite](https://github.com/jasonmwhite) & [@camdavidsonpilon](https://github.com/camdavidsonpilon) for letting me ([@gregology](https://github.com/gregology)) pick their brains when starting this project.
