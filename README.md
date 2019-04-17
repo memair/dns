@@ -17,6 +17,7 @@ IP DNS: 35.188.8.193
  * Instagram
  * LinkedIn
  * MySpace
+ * Pinterest
  * Reddit
  * Tumblr
  * Twitter

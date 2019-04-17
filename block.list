@@ -23,6 +23,17 @@ facebook.fr
 fbcdn-creative-a.akamaihd.net
 fbstatic-a.akamaihd.net
 graph.facebook.com
+s-static.ak.facebook.com
+static.ak.facebook.com
+upload.facebook.com 
+chat.facebook.com
+apps.facebook.com
+channel.facebook.com
+star.facebook.com
+star.c10r.facebook.com
+vupload2.facebook.com
+vupload2.t.facebook.com
+b-api.facebook.com
 
 # Instagram
 instagram.com
@@ -40,15 +51,27 @@ instagramstatic-a.akamaihd.net
 # LinkedIn
 linkedin.com
 www.linkedin.com
+edge.quantserve.com
+secure-us.imrworldwide.com
+b.scorecardresearch.com
+pixel.quantserve.comlicdn.com
 
 # MySpace
 myspace.com
 www.myspace.com
 
+# Pinterest
+pinterest.com
+www.pinterest.com
+s-media-cache-ak0.pinimg.com
+s-passets-cache-ak0.pinimg.com
+pinimg.com
+
 # Reddit
 reddit.com
 www.reddit.com
 out.reddit.com
+ssl.reddit.com
 redd.it
 amp-reddit-com.cdn.ampproject.org
 
@@ -64,6 +87,13 @@ platform.twitter.com
 syndication.twitter.com
 twimg.com
 t.co
+pic.twitter.com
+dev.twitter.com
+search.twitter.com
+userstream.twitter.com
+twimg0-a.akamaihd.net
+upload.twitter.com
+
 
 # Imgur
 imgur.com
