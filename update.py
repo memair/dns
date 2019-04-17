@@ -4,7 +4,7 @@ import hashlib, os
 from datetime import datetime, timedelta, date
 
 def state_should_change(date, salt):
-  """returns true 25% of the time"""
+  """pseudorandomly returns true on 25% of dates"""
 
   salted_date_string = (date.strftime('%Y-%m-%d') + salt).encode('utf-8')
   salted_date_hex = hashlib.md5(salted_date_string).hexdigest()
