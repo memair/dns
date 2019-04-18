@@ -8,7 +8,7 @@ Use cases:
  * Reducing social media usage
 
 Private DNS: dns.memair.com  
-IP DNS: 35.188.8.193
+IP DNS: 35.224.0.214
 
 ## Blocked Social Media Sites
 
@@ -55,7 +55,7 @@ Unfortunately iOS doesn't support system wide DNS settings. You can set the DNS 
 2. Click **Advanced** in the bottom right
 3. Select the **DNS** tab
 4. Remove all current DNS servers
-5. Add `35.188.8.193` as your DNS server
+5. Add `35.224.0.214` as your DNS server
 6. Click **OK** > **Apply**
 
 ### Router
@@ -64,7 +64,7 @@ Unfortunately iOS doesn't support system wide DNS settings. You can set the DNS 
 2. When prompted, enter the password to access network settings.
 3. Find the screen in which DNS server settings are specified.
 4. If there are IP addresses specified in the fields for the primary and seconday DNS servers, write them down for future reference.
-5. Replace those addresses with the `35.188.8.193`
+5. Replace those addresses with the `35.224.0.214`
 6. Save and exit.
 7. Restart your browser.
 
@@ -75,7 +75,7 @@ Unfortunately iOS doesn't support system wide DNS settings. You can set the DNS 
 3. Right click on the network interface connected to the Internet and select **Properties**
 4. If you are prompted for an administrator password or confirmation, type the password or provide confirmation
 5. Select the **Networking** tab. Under *This connection uses the following items*, select Internet Protocol Version 4 (TCP/IPv4) then click **Properties**
-6. Select **Use the following DNS server addresses** and enter `35.188.8.193` as the *Preferred DNS server*
+6. Select **Use the following DNS server addresses** and enter `35.224.0.214` as the *Preferred DNS server*
 7. Click **OK** & **OK**
 
 ### Windows 10
@@ -86,7 +86,7 @@ Unfortunately iOS doesn't support system wide DNS settings. You can set the DNS 
 4. On the left pane click **Change adaptor settings**
 5. Right click on the network interface connected to the Internet and select **Properties**
 6. Under *This connection uses the following items*, select Internet Protocol Version 4 (TCP/IPv4) then click **Properties**
-7. Select **Use the following DNS server addresses** and enter `35.188.8.193` as the *Preferred DNS server*
+7. Select **Use the following DNS server addresses** and enter `35.224.0.214` as the *Preferred DNS server*
 8. Click **OK** & **OK**
 
 ## Contributors
