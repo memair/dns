@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import hashlib, os
+import hashlib, os, time
 from datetime import datetime, timedelta, date
 
 def state_should_change(date, salt):
@@ -35,5 +35,7 @@ else:
   print('blocking social media today')
   os.system("sed -i '/memair/s/^#*//g' /etc/pihole/adlists.list")
 
+time.sleep(5)
+      
 print('refreshing pihole lists')
 os.system("pihole -g")
