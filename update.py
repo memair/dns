@@ -38,4 +38,4 @@ else:
 time.sleep(5)
       
 print('refreshing pihole lists')
-os.system("pihole -g")
+os.system('PATH="$PATH:/usr/local/bin/" && pihole -g')
