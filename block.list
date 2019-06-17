@@ -48,6 +48,7 @@ external.fybz2-2.fna.fbcdn.net
 static.xx.fbcdn.net
 scontent.xx.fbcdn.net
 video.fybz2-2.fna.fbcdn.net
+mqtt-mini.facebook.com
 
 # Imgur
 imgur.com
@@ -66,6 +67,8 @@ platform.instagram.com
 white.ish.instagram.com
 scontent.cdninstagram.com
 instagramstatic-a.akamaihd.net
+graph.instagram.com
+instagram.fymy1-2.fna.fbcdn.net
 
 # LinkedIn
 linkedin.com
