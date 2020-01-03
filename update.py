@@ -10,8 +10,8 @@ def state_should_change(date, salt):
   salted_date_hex = hashlib.md5(salted_date_string).hexdigest()
   return int(salted_date_hex[-1], 16) % 4 == 0
 
-salt = 'dns.memair.com'
-start_date  = datetime(2019,1,1).date()
+SALT = 'dns.memair.com'
+start_date  = datetime(2020,1,1).date()
 today = datetime.now().date()
 state_change_count = 0
 
@@ -19,7 +19,7 @@ delta = today - start_date
 
 for i in range(delta.days + 1):
   date         = start_date + timedelta(i)
-  change_state = state_should_change(date, salt)
+  change_state = state_should_change(date, SALT)
 
   if change_state:
     state_change_count += 1
